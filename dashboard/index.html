@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <title>Vamaragos - Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  <script src="./js/index.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<!-- 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body> -->
+
+<body>
+    <div id="back-top">
+
+    </div>
+    <div id="back-main">
+
+    </div>
+    <div id="container">
+        <span id="title-top">Social Media Dashboard</span><br>
+        <span id="followers">Total Followers: 23,004</span>
+        <label id="switch-title">Dark Mode</label>
+        <label id="lang-switch">
+          <input id="theme-switch" type="checkbox" autocomplete="off" unchecked onclick="switchTheme()">
+          <span id="slider"></span>
+        </label>
+        <ul id="tiles-top">
+            <li class="tile-outer-top" id="first">
+                <div class="tile-inner-top" id="first">
+                    <img class="icon" src="./images/icon-facebook.svg">
+                    <span class="username">@nathanf</span>
+                    <span class="count">1987</span>
+                    <span class="type" id="">FOLLOWERS</span>
+                    <p class="today">
+                         <svg class="arrow" height="6" width="12">
+                            <polygon points="6,0 12,6 0,6"/>
+                        </svg> 
+                      12 Today</p>
+                </div>
+            </li>
+            <li class="tile-outer-top" id="second">
+                <div class="tile-inner-top" id="second">
+                    <img class="icon" src="./images/icon-twitter.svg">
+                    <span class="username">@nathanf</span>
+                    <span class="count">1044</span>
+                    <span class="type" id="">FOLLOWERS</span>
+                    <p class="today">
+                      <svg class="arrow" height="6" width="12">
+                        <polygon points="6,0 12,6 0,6"/>
+                    </svg>    
+                      99 Today</p>
+                </div>              
+            </li>
+            <li class="tile-outer-top" id="third">
+                <div class="tile-inner-top" id="third">
+                  <img class="icon" id="third" src="./images/icon-instagram.svg">
+                  <span class="username" id="third">@realnathanf</span>
+                  <span class="count">11k</span>
+                  <span class="type" id="">FOLLOWERS</span>
+                  <p class="today">
+                    <svg class="arrow" height="6" width="12">
+                      <polygon points="6,0 12,6 0,6"/>
+                    </svg>  
+                    1099 Today</p>
+                </div>              
+            </li>
+            <li class="tile-outer-top" id="fourth">
+                <div class="tile-inner-top" id="fourth">
+                  <img class="icon" src="./images/icon-youtube.svg">
+                  <span class="username">Nathan F.</span>
+                  <span class="count">8239</span>
+                  <span class="type" id="">SUBSCRIBERS</span>
+                  <p class="today" id="fourth">
+                    <svg class="arrow" id="fourth" height="6" width="12">
+                      <polygon points="6,0 12,6 0,6"/>
+                    </svg>  
+                    144 Today</p>
+                </div>              
+            </li>
+        </ul>
+        <div id="bottom-section">
+            <span id="title-bottom">Overview - Today</span><br>
+            <ul id="tiles-bottom-row-1">
+              <li class="tile-outer-bottom-row-1" id="first">
+                <img class="icon bottom" src="./images/icon-facebook.svg">
+                <span class="source bottom">Page Views</span>
+                <span class="count bottom">87</span>
+                <p class="today bottom">
+                  <svg class="arrow bottom" height="6" width="12">
+                    <polygon points="6,0 12,6 0,6"/>
+                  </svg>  
+                  3%</p>
+              </li>
+              <li class="tile-outer-bottom-row-1" id="second">
+                <img class="icon bottom" src="./images/icon-twitter.svg">
+                <span class="source bottom">Retweets</span>
+                <span class="count bottom">117</span>
+                <p class="today bottom">
+                  <svg class="arrow bottom" height="6" width="12">
+                    <polygon points="6,0 12,6 0,6"/>
+                  </svg>  
+                  303%</p>            
+              </li>
+              <li class="tile-outer-bottom-row-1" id="third">
+                <img class="icon bottom" src="./images/icon-instagram.svg">
+                <span class="source bottom">Profile Views</span>
+                <span class="count bottom">52k</span>
+                <p class="today bottom">
+                  <svg class="arrow bottom" height="6" width="12">
+                    <polygon points="6,0 12,6 0,6"/>
+                  </svg>  
+                  1375%</p>       
+              </li>
+              <li class="tile-outer-bottom-row-1" id="fourth">
+                <img class="icon bottom" src="./images/icon-youtube.svg">
+                <span class="source bottom">Total Views</span>
+                <span class="count bottom">1407</span>
+                <p class="today bottom" id="fourth" >
+                  <svg class="arrow bottom" id="fourth" height="6" width="12">
+                    <polygon points="6,0 12,6 0,6"/>
+                  </svg>  
+                  12%</p>        
+              </li>
+          </ul>
+          <ul id="tiles-bottom-row-2">
+            <li class="tile-outer-bottom-row-2" id="first">
+              <img class="icon bottom" src="./images/icon-facebook.svg">
+              <span class="source bottom">Likes</span>
+              <span class="count bottom">52</span>
+              <p class="today bottom" id="fourth">
+                <svg class="arrow bottom" id="fourth" height="6" width="12">
+                  <polygon points="6,0 12,6 0,6"/>
+                </svg>  
+                2%</p> 
+            </li>
+            <li class="tile-outer-bottom-row-2" id="second">
+              <img class="icon bottom" src="./images/icon-twitter.svg">
+              <span class="source bottom">Likes</span>
+              <span class="count bottom">507</span>
+              <p class="today bottom">
+                <svg class="arrow bottom" height="6" width="12">
+                  <polygon points="6,0 12,6 0,6"/>
+                </svg>  
+                553%</p>            
+            </li>
+            <li class="tile-outer-bottom-row-2" id="third">
+              <img class="icon bottom" src="./images/icon-instagram.svg">
+              <span class="source bottom">Likes</span>
+              <span class="count bottom">5462</span>
+              <p class="today bottom">
+                <svg class="arrow bottom" height="6" width="12">
+                  <polygon points="6,0 12,6 0,6"/>
+                </svg>  
+                2257%</p>           
+            </li>
+            <li class="tile-outer-bottom-row-2" id="fourth">
+              <img class="icon bottom" src="./images/icon-youtube.svg">
+              <span class="source bottom">Likes</span>
+              <span class="count bottom">107</span>
+              <p class="today bottom" id="fourth">
+                <svg class="arrow bottom" id="fourth" height="6" width="12">
+                  <polygon points="6,0 12,6 0,6"/>
+                </svg>  
+                19%</p>          
+            </li>
+        </ul>
+        </div>
+    </div>
+</body>
+
+</html>

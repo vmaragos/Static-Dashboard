@@ -1,0 +1,3 @@
+This is a project suggested by FrontEnd Mentor, which provided screenshots of the final result in order to be cloned. It is a static social media statistics' dashboard with the option to switch between dark and light themes, and it was created with HTML, CSS and JavaScript.
+
+Project source: https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H
