@@ -405,3 +405,104 @@
     top: 50%;
     left: 105%;
 }
+
+@media only screen and (max-width: 440px)
+{
+    *
+    {
+        /* visibility: hidden; */
+    }
+    
+    #back-top
+    {
+        visibility: visible;
+        background-color: green;
+        width: 100%;
+        height: 200px;
+    }
+
+    #back-main
+    {
+        visibility: visible;
+        width: 100%;
+        /* height: 100%; */
+        top: 0;
+        left: 0;
+    }
+
+    #container
+    {
+        visibility: visible;
+        width: 90%;
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+        /* background-color: rgba(255, 255, 255, 0.274); */
+    }
+
+    #title-top
+    {
+        visibility: visible;
+        font-size: 25px;
+    }
+    
+    #followers
+    {
+        visibility: visible;
+        font-size: 15px;
+    }
+
+    #line
+    {
+        visibility: visible;
+        position: relative;
+        top: 10px;
+    }
+
+    #switch-title
+    {
+        visibility: visible;
+        position: relative;
+        top: 20px;
+        left: 0;
+
+    }
+
+    #lang-switch
+    {
+        visibility: visible;
+        position: relative;
+        top: 12px;
+        left: 60%;
+        /* z-index: 20; */
+    }
+
+    #slider
+    {
+        visibility: visible;
+    }
+
+    #tiles-top
+    {
+        visibility: visible;
+        /* background-color: rgba(255, 255, 255, 0.274); */
+        top: 120px;
+    }
+
+    .tile-outer-top
+    {
+        visibility: visible;
+        position: relative;
+        left: 40%;
+        transform: translateX(-50%);
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    .tile-inner-top
+    {
+        visibility: visible;
+    }
+
+
+}

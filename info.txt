@@ -1,4 +1,3 @@
-Alligned the texts of the two bottom tile rows.
-Fixed an issue where the first tile of the middle row would not revert to the original background color when the mouse hovers outside of it, while the light theme is selected.
+Started working on the responsive design of the page
 
 Project source: https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H
