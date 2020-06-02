@@ -1,3 +1,4 @@
-This is a project suggested by FrontEnd Mentor, which provided screenshots of the final result in order to be cloned. It is a static social media statistics' dashboard with the option to switch between dark and light themes, and it was created with HTML, CSS and JavaScript.
+This update contains the working hover effects for each tile, for each of the two themes. It was previously made with CSS and it would stop working after the theme was switched.
+Now the hover effects were re-made with JavaaScript, and as a result they work even after the theme is switched.
 
 Project source: https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H

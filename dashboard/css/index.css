@@ -176,9 +176,8 @@
 
 .tile-inner-top:hover
 {
-    background-color: rgb(51, 58, 86);
-    /* background-color: hsl(228, 12%, 44%); */
-    transition: ease-in-out 0.2s;
+    /* background-color: rgb(51, 58, 86);
+    transition: ease-in-out 0.2s; */
 }
 
 #third.tile-outer-top
@@ -346,8 +345,8 @@
 
 .tile-outer-bottom-row-1:hover, .tile-outer-bottom-row-2:hover
 {
-    background-color: rgb(51, 58, 86);
-    transition: ease-in-out 0.2s;
+    /* background-color: rgb(51, 58, 86);
+    transition: ease-in-out 0.2s; */
 }
 
 .icon.bottom
