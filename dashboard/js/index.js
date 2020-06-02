@@ -262,7 +262,7 @@ function revertBackColor4()
 
     else if (document.getElementById("theme-switch").checked == true)
     {
-        document.getElementsByClassName("tile-outer-bottom-row-1")[3].style.backgroundColor = "hsl(227, 47%, 96%)";
+        document.getElementsByClassName("tile-outer-bottom-row-1")[0].style.backgroundColor = "hsl(227, 47%, 96%)";
     }
 }
 

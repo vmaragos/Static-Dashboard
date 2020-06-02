@@ -200,7 +200,7 @@
     height: 3vh;
 }
 
-.username, .source
+.username
 {
     position: absolute;
     top: 19%;
@@ -210,6 +210,22 @@
     color: rgb(119, 129, 168);
     font-weight: 700;
     transition: ease-in-out 0.2s;
+}
+
+.source
+{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 60%;
+    /* transform: translateX(-50%); */
+    font-size: 15px;
+    /* background-color: green; */
+    color: rgb(119, 129, 168);
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+    text-align: left;
+    /* margin-left: 3vh; */
 }
 
 #third.icon
@@ -358,26 +374,34 @@
 
 .source.bottom
 {
-    left: 30%;
-    top: 20%;
+    /* left: 30%; */
+    /* top: 20%; */
 }
 
 .count.bottom
 {
-    left: 20%;
-    top: 70%;
+    left: 10%;
+    width: 40%;
+    transform: none;
+    text-align: left;
+    top: 60%;
     font-size: 30px;
     font-weight: 700;
+    /* background-color: green; */
 }
 
 .today.bottom
 {
-    top: 63%;
-    left: 83%;
+    transform: none;
+    text-align: right;
+    width: 25%;
+    /* background-color: green; */
+    top: 60%;
+    left: 60%;
 }
 
 .arrow.bottom
 {
-    /* top: 0; */
-    left: -65%;
+    top: 50%;
+    left: 105%;
 }

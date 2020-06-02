@@ -1,4 +1,4 @@
-This update contains the working hover effects for each tile, for each of the two themes. It was previously made with CSS and it would stop working after the theme was switched.
-Now the hover effects were re-made with JavaaScript, and as a result they work even after the theme is switched.
+Alligned the texts of the two bottom tile rows.
+Fixed an issue where the first tile of the middle row would not revert to the original background color when the mouse hovers outside of it, while the light theme is selected.
 
 Project source: https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H
